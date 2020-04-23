@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Career</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+   <style>
+
+*{
+    box-sizing: content-box; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container{
+    width: 80%;
+    height: 400px;
+    margin:90px auto;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.box{
+    margin-top: 30px;
+    width: 29%;
+    height: 150px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow:1px 1px 3px 3px rgb(247, 247, 247);
+}
+.sub{
+    
+    margin: 40px 0 0 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(143, 132, 132);
+}
+.text{
+    color:rgb(184, 183, 183);
+    margin: 10px 0 0 10px;
+    line-height: 22px;
+}
+.my{
+    margin-right: 10px; color:rgb(184, 183, 183);
+    font-size: x-large;
+}
+.me{
+    color:rgb(184, 183, 183);
+    margin-left: 10px;
+    font-size: x-small;
+}
+.all{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 17px;
+    font-weight: bold;
+   
+}
+.sub1{
+    color: black;
+}
+.mk,.do{
+    color: blueviolet;
+}
+.do{
+    font-size: xx-small;
+    margin-left: 5px;
+}
+.mk{
+    font-size: x-large;
+    margin-right: 10px;
+}
+.text1{
+    color: rgb(117, 117, 117);
+}
+
+@media (max-width:1000px){
+    .container{
+        width: 100%;
+    
+    }
+    .box{
+        width: 45%;
+        height: 50%;
+        margin-right: 10px;
+   }
+   .all{
+       margin-top: 85px;
+   }
+}
+@media (max-width:670px){
+    .container{
+        width:100%;
+        margin-top: 30px;
+    }
+    .box{
+        width: 95%;
+    }
+}
+
+   </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="box">
+                <div class="sub"><i class="fa fa-list-alt my" ></i>Subscription Management<i class="fa fa-arrow-right me" ></i></div>
+                <div class="text">Scale subscriptions with flexible pricing & billing logic and user lifecycle visibility. </div>
+            </div>
+            <div class="box">
+                <div class="sub"><i class="fa fa-wpforms my" ></i>Recurring Billing<i class="fa fa-arrow-right me"></i></div>
+                <div class="text">Automate billing with customisable invoices,payment schdules, and billing calendars. </div>
+            </div>
+            <div class="box">
+                <div class="sub sub1"><i class="fa fa-file-text-o mk" ></i>Accounting & RevRec<i class="fa fa-arrow-right do" ></i></div>
+                <div class="text text1">Simplify bookkeeping, global taxes, revenue recognition, and one-click reconciliation. </div>
+            </div>
+            <div class="box">
+                <div class="sub"><i class="fa fa-credit-card my" ></i>Payment & Gateways<i class="fa fa-arrow-right me"></i></div>
+                <div class="text">Boost revenue with multiple payment methods, gateways, slick checkout, and smart recovery. </div>
+            </div>
+            <div class="box">
+                <div class="sub "><i class="fa fa-file-o my"></i>Analytics & Insights<i class="fa fa-arrow-right me" ></i></div>
+                <div class="text">Go beyond stats with RevenueStory, spot <br>leakages, and engage with abandoned carts. </div>
+            </div>
+            <div class="box">
+                <div class="text all">Explore all features<i class="fa fa-arrow-right me" ></i></div>
+            </div>
+        </div>
+    </body>
+</html>
